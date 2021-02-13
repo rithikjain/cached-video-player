@@ -62,12 +62,6 @@
       "languageVersion": "2.2"
     },
     {
-      "name": "flutter_web_plugins",
-      "rootUri": "file:///C:/flutter/packages/flutter_web_plugins",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
       "name": "matcher",
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10-nullsafety.1",
       "packageUri": "lib/",
@@ -153,13 +147,7 @@
     },
     {
       "name": "video_player_platform_interface",
-      "rootUri": "file:///C:/flutter/.pub-cache/git/plugins-b38cc873d502512dc3a487f7799af183a184762c/packages/video_player/video_player_platform_interface",
-      "packageUri": "lib/",
-      "languageVersion": "2.8"
-    },
-    {
-      "name": "video_player_web",
-      "rootUri": "file:///C:/flutter/.pub-cache/git/plugins-b38cc873d502512dc3a487f7799af183a184762c/packages/video_player/video_player_web",
+      "rootUri": "file:///C:/flutter/.pub-cache/git/cached-video-player-23fdf23f7c7af2a796ec6848e36b33c002397462/video_player_platform_interface",
       "packageUri": "lib/",
       "languageVersion": "2.8"
     },
@@ -170,7 +158,7 @@
       "languageVersion": "2.8"
     }
   ],
-  "generated": "2021-02-13T18:11:44.952404Z",
+  "generated": "2021-02-13T18:20:08.837371Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }

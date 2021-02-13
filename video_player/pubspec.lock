@@ -67,11 +67,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_web_plugins:
-    dependency: transitive
-    description: flutter
-    source: sdk
-    version: "0.0.0"
   matcher:
     dependency: transitive
     description:
@@ -171,21 +166,12 @@ packages:
   video_player_platform_interface:
     dependency: "direct main"
     description:
-      path: "packages/video_player/video_player_platform_interface"
-      ref: caching
-      resolved-ref: b38cc873d502512dc3a487f7799af183a184762c
-      url: "git://github.com/sanekyy/plugins.git"
+      path: video_player_platform_interface
+      ref: HEAD
+      resolved-ref: "23fdf23f7c7af2a796ec6848e36b33c002397462"
+      url: "https://github.com/rithikjain/cached-video-player.git"
     source: git
     version: "2.3.0"
-  video_player_web:
-    dependency: "direct main"
-    description:
-      path: "packages/video_player/video_player_web"
-      ref: caching
-      resolved-ref: b38cc873d502512dc3a487f7799af183a184762c
-      url: "git://github.com/sanekyy/plugins.git"
-    source: git
-    version: "0.1.5"
 sdks:
   dart: ">=2.10.0-110 <2.11.0"
   flutter: ">=1.12.13+hotfix.5 <2.0.0"
