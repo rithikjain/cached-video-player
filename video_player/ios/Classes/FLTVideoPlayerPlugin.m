@@ -553,7 +553,7 @@ static inline CGFloat radiansToDegrees(CGFloat radians) {
           stringByAddingPercentEncodingWithAllowedCharacters:NSMutableCharacterSet
                                                                  .alphanumericCharacterSet];
 
-      player = [[FLTVideoPlayer alloc] initWithURL:[NSURL URLWithString:escapedURL]
+      player = [[FLTVideoPlayer alloc] initWithURL:[NSURL URLWithString:input.uri]
                                       frameUpdater:frameUpdater
                                        enableCache:enableCache];
     } else {
